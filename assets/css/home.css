@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -58,7 +62,7 @@ body {
     color: #fff;
 }
 
-ion-icon {
+i {
     font-size: 25px;
 }
 
@@ -85,14 +89,14 @@ ion-icon {
     font-size: 18px;
 }
 
-#task-list ion-icon {
+#task-list i {
     position: absolute;
-    top: 0;
-    height: 40px;
+    top: 0px;
+    height: 100%;
     transition: .5s;
     cursor: pointer;
     width: 30px;
-    padding: 5px;
+    padding: 10px 2px;
 }
 
 .done-btn {
@@ -105,7 +109,8 @@ ion-icon {
 }
 
 .remove-btn {
-    right: 0;
+    right: 5px;
+    text-align: center;
 }
 
 .remove-btn:hover {
